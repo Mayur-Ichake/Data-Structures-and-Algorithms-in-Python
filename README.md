@@ -1,5 +1,6 @@
 # Data-Structures-and-Algorithms-in-Python
----
-**topic covered
-String
-Arrays
+
+**topic covered**                           
+
+String               
+Arrays                           
