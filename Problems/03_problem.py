@@ -1,15 +1,15 @@
-#  check palidrome in string using loop
+# Check palindrome in string using loop
 
-n = "abmmcba"
-op = len(n)
-left = 0
-right = op-1
 
-while left < right:
-    if n[left] != n[right]:
-        print("False")
-        break
-    left += 1
-    right -= 1
+n = "abmmcba" 
+reversed_str = ""
+index = len(n) - 1
+
+while index >= 0:
+    reversed_str += n[index]
+    index -= 1
+
+if n == reversed_str:
+    print("It's palindrome")
 else:
-    print("True")
+    print("It's not palindrome")

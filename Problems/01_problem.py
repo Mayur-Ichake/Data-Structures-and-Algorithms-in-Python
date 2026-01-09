@@ -2,12 +2,13 @@
 
 n = int(input("Enter a number: "))
 num = n
-km = []
+arr = []
 while num > 0:
-    digit = num % 10
-    km.append(digit)
+    last_digit = num % 10
+    arr.append(last_digit)
     num = num // 10
-# print(km)
-print("".join(map(str,km)))
 
-# map(str,km)  = Convert digits → string for join
+print("".join(map(str,arr)))
+
+
+# map(str,arr)  = Convert digits → string for join

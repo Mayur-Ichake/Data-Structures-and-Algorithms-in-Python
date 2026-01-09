@@ -1,5 +1,4 @@
-n = 5
-
-for i in range(1,n+1):
-    for j in range(1,n+1):
-        print(1)
+km = "1234"
+k = [km]
+print(" ".join(map(str.k)))
+print(k)

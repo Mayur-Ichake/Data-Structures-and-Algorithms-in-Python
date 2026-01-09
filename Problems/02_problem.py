@@ -4,7 +4,7 @@ from math import *
 n = 54321265432
 print(int(log10(n))+1)
 
-num = n
+num = n 
 count = 0
 
 while num > 0:
@@ -12,5 +12,4 @@ while num > 0:
     num = num // 10
 
 print(count)
-
 
